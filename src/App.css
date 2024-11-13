@@ -1,0 +1,19 @@
+.hero {
+	width: 100%;
+	height: 40vh;
+	background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTrHv0ds2fmcAkx5Wax7APVNvK5HPTCOOww7EuHfOK7PA31PQ_HyEvQw2SadrFV3hllodF7_8EHfdIxySBbUq5aXsWKeglShkGK5tFZGEeN3ti-xdYvqLpI5SNGUnnLkBiIU3VkPDaaPoTfIBfcUgvakHIaJMwexq0u36IgrrtWObCgm-k3PxchTNDeg/s0/rick-and-morty-spaceship-4k-wallpaper.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 0.75em 2em;
+}
+
+@media screen and (min-width: 1024px) {
+	.hero {
+		height: 50vh;
+	}
+}

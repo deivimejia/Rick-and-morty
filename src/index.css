@@ -1,0 +1,34 @@
+:root {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	line-height: 1.5;
+	font-weight: 400;
+	scroll-behavior: smooth;
+
+	/*Colors */
+	--body-bg: #020437db;
+	--text: #7cb623;
+	--bg-card: #062226;
+	--btn-primary: #70a821;
+}
+html {
+	box-sizing: border-box;
+}
+*,
+*::afetr,
+*::before {
+	box-sizing: inherit;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--body-bg);
+}
+img,
+svg,
+video {
+	max-width: 100%;
+	height: auto;
+}

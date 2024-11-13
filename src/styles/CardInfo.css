@@ -1,0 +1,44 @@
+.cardInfo {
+	box-sizing: border-box;
+	max-width: 350px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #782c4250;
+	border-radius: 0.5em;
+	padding: 1.5em 0.5em;
+	color: #fff;
+	text-align: center;
+	box-shadow: 0 0 10px 5px #00000090;
+	margin-bottom: 3em;
+}
+.cardinfo__title {
+	color: var(--text);
+	margin-bottom: 0.75em;
+}
+.cardInfo__container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	font-size: 13px;
+}
+.cardInfo__item {
+	width: 100%;
+}
+.cardInfo__item-data {
+	color: #999;
+}
+@media screen and (min-width: 768px) {
+	.cardInfo {
+		max-width: 400px;
+	}
+	.cardInfo__container {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.cardInfo {
+		max-width: 600px;
+	}
+	.cardInfo__container {
+		font-size: 18px;
+	}
+}
