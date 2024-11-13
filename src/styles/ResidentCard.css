@@ -3,6 +3,10 @@
 	color: #fff;
 	border-radius: 0.5em;
 	overflow: hidden;
+	&:hover {
+		transition-duration: 1s;
+		transform: scale(1.02);
+	}
 }
 .card__image {
 	aspect-ratio: 1.6;
