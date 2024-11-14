@@ -10,11 +10,19 @@ function ResidentsList({ residents }) {
 	const onPrev = () => {
 		if (page > 1) {
 			setPage(page - 1);
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth',
+			});
 		}
 	};
 	const onNext = () => {
 		if (page < maxPage) {
 			setPage(page + 1);
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth',
+			});
 		}
 	};
 	const currentPageItems = residents?.slice(
